@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashCan, faPen } from '@fortawesome/free-solid-svg-icons';
+import data from "../../data/data";
 import './main.css';
 
 const Main = () => {
@@ -25,14 +28,14 @@ const Main = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    {data.map(data => (<tr>
                         <td><input type="checkbox"/></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
+                        <td>{data.name}{data.firstname}</td>
+                        <td>{data.email}{data.phoneno}</td>
+                        <td>{data.status}</td>
+                        <td>{data.address}</td>
+                        <td><FontAwesomeIcon icon={faPen} /><FontAwesomeIcon icon={faTrashCan} /></td>
+                    </tr>))}
                 </tbody>
             </table>
         </div>

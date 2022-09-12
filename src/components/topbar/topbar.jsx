@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleArrowDown, faArrowUpFromBracket, faCopy, faPlus, faCirclePlus, faChevronLeft, faChevronRight, faTableColumns } from '@fortawesome/free-solid-svg-icons';
 import './topbar.css';
 
 const Topbar = () => {
@@ -6,27 +8,27 @@ const Topbar = () => {
         <div className="topbar">
            <div className="left">
                 <div className="a">
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                    <span className="red"> x </span>
+                    <span className="yellow"> - </span>
+                    <span className="green"> + </span>
                 </div>
                 <div className="a">
-                    <img src="" alt="" />
+                    <FontAwesomeIcon icon={faTableColumns} />
                 </div>
                 <div className="a">
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                    <FontAwesomeIcon icon={faChevronLeft} />
+                    <FontAwesomeIcon icon={faChevronRight} />
                 </div>
            </div>
            <div className="center">
-                <img src="" alt="" />
-                <input type="text" value="Vorgez.com" class="address" />
+                <FontAwesomeIcon icon={faCirclePlus} />
+                <input type="text" value="Vorgez.com" className="address" />
            </div>
            <div className="right">
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <FontAwesomeIcon icon={faCircleArrowDown} />
+                <FontAwesomeIcon icon={faArrowUpFromBracket} />
+                <FontAwesomeIcon icon={faPlus} />
+                <FontAwesomeIcon icon={faCopy} />
            </div>
         </div>
     )
