@@ -6,7 +6,7 @@ const data = [
     phoneno: "(+62)22-8765-5678",
     status: "Come in",
     address: "South Jakarta, Jakarta",
-    img: ""
+    img: "../../assets/images/albert.png"
 },
 {
     name: "Wade Warren",
@@ -15,7 +15,7 @@ const data = [
     phoneno: "(+62)29-1234-8767",
     status: "Come in",
     address: "Central Jakarta, Jakarta",
-    img: ""
+    img: "../../assets/images/wade.png"
 },
 {
     name: "Ronald Richards",
@@ -24,7 +24,7 @@ const data = [
     phoneno: "(+62)25-1321-9076",
     status: "Not Come",
     address: "Banten, Banten",
-    img: ""
+    img: "../../assets/images/ronald.png"
 },
 {
     name: "Courtney Henry",
@@ -33,7 +33,7 @@ const data = [
     phoneno: "(+62)22-7777-9999",
     status: "Not Come",
     address: "Bandung, West Java",
-    img: ""
+    img: "../../assets/images/harry.jpg"
 },
 {
     name: "Jerome Bell",
@@ -41,7 +41,8 @@ const data = [
     email: "jerome@gmail.com",
     phoneno: "(+62)21-8888-5878",
     status: "Come in",
-    address: "Bandung, West Java"
+    address: "Bandung, West Java",
+    img: "../../assets/images/jerome.png"
 },
 {
     name: "Larasati Ayu",
@@ -49,7 +50,8 @@ const data = [
     email: "ayu@gmail.com",
     phoneno: "(+62)21-9878-9888",
     status: "Come in",
-    address: "South Jakarta, Jakarta"
+    address: "South Jakarta, Jakarta",
+    img: "../../assets/images/lares.png"
 },
 {
     name: "Wanda Safriti Wanda",
@@ -58,7 +60,7 @@ const data = [
     phoneno: "(+62)21-9876-9875",
     status: "Come in",
     address: "Bandung, West Java",
-    img: ""
+    img: "../../assets/images/wanda.jpg"
 },
 {
     name: "Esther Howard",
@@ -67,7 +69,7 @@ const data = [
     phoneno: "(+62)21-3498-9999",
     status: "Not Come",
     address: "Bandung, West Java",
-    img: "",
+    img: "../../assets/images/howard.png",
 },
 ]
 

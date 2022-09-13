@@ -13,22 +13,22 @@ const Topbar = () => {
                     <span className="green"> + </span>
                 </div>
                 <div className="a">
-                    <FontAwesomeIcon icon={faTableColumns} />
+                    <FontAwesomeIcon icon={faTableColumns} className="icon"/>
                 </div>
                 <div className="a">
-                    <FontAwesomeIcon icon={faChevronLeft} />
-                    <FontAwesomeIcon icon={faChevronRight} />
+                    <FontAwesomeIcon icon={faChevronLeft} className="icon"/>
+                    <FontAwesomeIcon icon={faChevronRight} className="icon"/>
                 </div>
            </div>
            <div className="center">
-                <FontAwesomeIcon icon={faCirclePlus} />
-                <input type="text" value="Vorgez.com" className="address" />
+                <FontAwesomeIcon icon={faCirclePlus} className="center-icon"/>
+                <input type="text" placeholder="Vorgez.com" className="address" />
            </div>
            <div className="right">
-                <FontAwesomeIcon icon={faCircleArrowDown} />
-                <FontAwesomeIcon icon={faArrowUpFromBracket} />
-                <FontAwesomeIcon icon={faPlus} />
-                <FontAwesomeIcon icon={faCopy} />
+                <FontAwesomeIcon icon={faCircleArrowDown} className="icon"/>
+                <FontAwesomeIcon icon={faArrowUpFromBracket} className="icon"/>
+                <FontAwesomeIcon icon={faPlus} className="icon"/>
+                <FontAwesomeIcon icon={faCopy} className="icon"/>
            </div>
         </div>
     )
