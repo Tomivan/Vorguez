@@ -31,7 +31,7 @@ const Main = () => {
                     <tbody>
                         {data.map(data => (<tr>
                             <td><input type="checkbox"/></td>
-                            <td className="name">
+                            <td>
                                 <img src={data.img} alt="" className="image"/>
                                 <div className="float-right">
                                     <p>{data.name}</p>
