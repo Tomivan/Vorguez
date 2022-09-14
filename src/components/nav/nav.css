@@ -7,6 +7,9 @@
     padding: 1em;
     width: 15vw;
 }
+.flex-column{
+    margin-top: 20%;
+}
 .side{
     margin-top: 25%;
     display: flex;
